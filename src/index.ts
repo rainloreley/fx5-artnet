@@ -27,7 +27,11 @@ usbInterface.setMode(mode);
 
 const dmxnetManager = new dmxnet();
 const artnetReceiver = dmxnetManager.newReceiver();
+var recentDMXArray: never[] = [];
 console.info("Initialized Art-net interface")
 artnetReceiver.on("data", (data) => {
-    console.log(data);
+    if (JSON.stringify(data) != JSON.stringify(recentDMXArray)) {
+        usbInterface.writeMap(data);
+    }
+    recentDMXArray = data;
 })

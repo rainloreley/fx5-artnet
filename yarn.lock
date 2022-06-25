@@ -603,10 +603,10 @@ typescript@^4.7.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.4.tgz#1a88596d1cf47d59507a1bcdfb5b9dfe4d488235"
   integrity sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==
 
-usbdmx-js@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/usbdmx-js/-/usbdmx-js-1.0.0.tgz#5992755ee9ec998fda60a03eaeb7ff9167f3a8b2"
-  integrity sha512-V13HQ4lr0cMFnIxXCIomnM+HlOixPGNnp6W/sqQ9gi9GvSc8i3bvy63Eu4T7bDTqjw4c1zbV6pgGcK8bzr9sdw==
+usbdmx-js@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/usbdmx-js/-/usbdmx-js-1.0.2.tgz#da9e89e45e3699131b1a6f2927841b598a8afb7c"
+  integrity sha512-rmHu4Vu/MRqRinMy7mXVCusj0AnV7a1Not8nH1qaquPgVsEaD4eWuMM49hhgmbGHoOBNOYijROWcc3/nMo1G7g==
   dependencies:
     node-hid "^2.1.1"
 

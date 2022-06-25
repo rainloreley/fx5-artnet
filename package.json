@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "dmxnet": "^0.8.0",
-    "usbdmx-js": "^1.0.0"
+    "usbdmx-js": "^1.0.2"
   },
   "devDependencies": {
     "@tsconfig/node16": "^1.0.3",
